@@ -164,6 +164,27 @@ main img {
 
 .secCol   {
     border: 1px solid pink !important;
+    height: 300px !important;
+    
+}
+.secCol section{
+    margin: 10px auto;
+
+}
+.block {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px pink dashed;
+}
+.block span {
+    font-size: 1.5rem;
+    margin: 10px auto;
+    
+}
+
+.price {
+    color: pink;
+    font-size: 2rem;
 }
 
 @media screen and (max-width: 1000px) {
@@ -182,5 +203,10 @@ main img {
     }
     main img {
         width: 200px;
+        align-content: center;
+    }
+    #bases {
+        align-items: center;
     }
 }
+
